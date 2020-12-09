@@ -1,0 +1,203 @@
+$comment
+	File created using the following command:
+		vcd file numerical_comparator.msim.vcd -direction
+$end
+$date
+	Tue Dec 08 15:27:37 2020
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module numerical_comparator_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var wire 1 # Fequ $end
+$var wire 1 $ Fmax $end
+$var wire 1 % Fmin $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , B~combout $end
+$var wire 1 - A~combout $end
+$var wire 1 . U3~combout $end
+$var wire 1 / U4~combout $end
+$var wire 1 0 U5~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+1#
+0$
+0%
+0&
+1'
+x(
+1)
+1*
+1+
+0,
+0-
+0.
+0/
+00
+$end
+#41250
+1"
+1,
+10
+1/
+1%
+0#
+#100000
+1!
+1-
+00
+0/
+0%
+1#
+#165000
+0"
+0,
+10
+1.
+1$
+0#
+#200000
+0!
+0-
+00
+0.
+0$
+1#
+#206250
+1"
+1,
+10
+1/
+1%
+0#
+#300000
+1!
+1-
+00
+0/
+0%
+1#
+#330000
+0"
+0,
+10
+1.
+1$
+0#
+#371250
+1"
+1,
+00
+0.
+0$
+1#
+#400000
+0!
+0-
+10
+1/
+1%
+0#
+#495000
+0"
+0,
+00
+0/
+0%
+1#
+#500000
+1!
+1-
+10
+1.
+1$
+0#
+#536250
+1"
+1,
+00
+0.
+0$
+1#
+#600000
+0!
+0-
+10
+1/
+1%
+0#
+#660000
+0"
+0,
+00
+0/
+0%
+1#
+#700000
+1!
+1-
+10
+1.
+1$
+0#
+#701250
+1"
+1,
+00
+0.
+0$
+1#
+#800000
+0!
+0-
+10
+1/
+1%
+0#
+#825000
+0"
+0,
+00
+0/
+0%
+1#
+#866250
+1"
+1,
+10
+1/
+1%
+0#
+#900000
+1!
+1-
+00
+0/
+0%
+1#
+#990000
+0"
+0,
+10
+1.
+1$
+0#
+#1000000

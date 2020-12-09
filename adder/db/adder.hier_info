@@ -1,0 +1,13 @@
+|adder
+A => S.IN1
+A => C.IN0
+A => C.IN1
+B => S.IN0
+B => C.IN1
+B => Add0.IN2
+C0 => S.IN1
+C0 => C.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+C <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+

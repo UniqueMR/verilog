@@ -1,0 +1,24 @@
+module encoder(I,Y,EI);
+	input I[7:0];
+	input EI;
+	output Y[2:0];
+	reg Y[2:0];
+	
+	always @(I,EI)
+		begin
+			if(EI)
+				case(I)
+					8'b0000_0000 : Y = 3'b000;
+					8'b0000_0001 : Y = 3'b001;
+					8'b0000_0010 : Y = 3'b010;
+					8'b0000_0100 : Y = 3'b011;
+					8'b0000_1000 : Y = 3'b100;
+					8'b0001_0000 : Y = 3'b101;
+					8'b0010_0000 : Y = 3'b110;
+					8'b0100_0000 : Y = 3'b111;
+					default Y = 3'b000;
+				endcase
+			else
+				Y = 3'b000;
+		end
+endmodule

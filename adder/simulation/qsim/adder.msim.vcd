@@ -1,0 +1,165 @@
+$comment
+	File created using the following command:
+		vcd file adder.msim.vcd -direction
+$end
+$date
+	Tue Dec 08 15:11:21 2020
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module adder_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var reg 1 # C0 $end
+$var wire 1 $ C $end
+$var wire 1 % S $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , B~combout $end
+$var wire 1 - A~combout $end
+$var wire 1 . C0~combout $end
+$var wire 1 / S~0_combout $end
+$var wire 1 0 C~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+0&
+1'
+x(
+1)
+1*
+1+
+0,
+0-
+0.
+0/
+00
+$end
+#25000
+1"
+1,
+#100000
+1!
+0"
+1-
+0,
+1/
+1%
+#125000
+1"
+1,
+#200000
+0!
+0"
+0-
+0,
+0/
+0%
+#225000
+1"
+1,
+#300000
+1#
+1!
+0"
+1.
+1-
+0,
+10
+1/
+1$
+1%
+#325000
+1"
+1,
+0/
+0%
+#400000
+0#
+0!
+0"
+0.
+0-
+0,
+00
+0$
+#425000
+1"
+1,
+#500000
+1!
+0"
+1-
+0,
+1/
+1%
+#525000
+1"
+1,
+#600000
+0!
+0"
+0-
+0,
+0/
+0%
+#625000
+1"
+1,
+#700000
+1#
+1!
+0"
+1.
+1-
+0,
+10
+1/
+1$
+1%
+#725000
+1"
+1,
+0/
+0%
+#800000
+0#
+0!
+0"
+0.
+0-
+0,
+00
+0$
+#825000
+1"
+1,
+#900000
+1!
+0"
+1-
+0,
+1/
+1%
+#925000
+1"
+1,
+#1000000

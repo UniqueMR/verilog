@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, D:/verilog_project/JK_flip_flop/JK_flip_flop.v
+source_file = 1, D:/verilog_project/JK_flip_flop/db/JK_flip_flop.cbx.xml
+design_name = JK_flip_flop
+instance = comp, \CP~I , CP, JK_flip_flop, 1
+instance = comp, \K~I , K, JK_flip_flop, 1
+instance = comp, \J~I , J, JK_flip_flop, 1
+instance = comp, \Q~reg0 , Q~reg0, JK_flip_flop, 1
+instance = comp, \Q~I , Q, JK_flip_flop, 1
+instance = comp, \Qnot~I , Qnot, JK_flip_flop, 1

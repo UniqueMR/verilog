@@ -1,0 +1,17 @@
+module SRflip_flop(S,R,Q,CP);
+	input S,R,CP;
+	output Q;
+	reg Q;
+	
+	always @(posedge CP)
+		begin
+			if(S&R == 0)
+			begin
+				if(S == R == 0)
+					Q = Q;
+				else if(S == 0&&R == 1)
+					Q = 0;
+				else	Q = 1;
+			end
+		end
+endmodule

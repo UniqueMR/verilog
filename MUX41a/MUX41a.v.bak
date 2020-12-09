@@ -1,0 +1,15 @@
+module MUX41a(a,b,c,d,s,y);
+	input a,b,c,d;
+	input s[1:0];
+	output y;
+	reg y;
+	
+	always @(a,b,c,d,s)
+		case(s)
+			2'b00 : y <= a;
+			2'b01 : y <= b;
+			2'b10 : y <= c;
+			2'b11 : y <= d;
+			default : y <= a;
+	end
+endmodule

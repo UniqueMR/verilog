@@ -1,0 +1,143 @@
+$comment
+	File created using the following command:
+		vcd file decoder.msim.vcd -direction
+$end
+$date
+	Tue Dec 08 15:05:38 2020
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module decoder_vlg_vec_tst $end
+$var reg 3 ! A [2:0] $end
+$var wire 1 " Y $end
+
+$scope module i1 $end
+$var wire 1 # gnd $end
+$var wire 1 $ vcc $end
+$var wire 1 % unknown $end
+$var tri1 1 & devclrn $end
+$var tri1 1 ' devpor $end
+$var tri1 1 ( devoe $end
+$var wire 1 ) Decoder0~0_combout $end
+$var wire 1 * A~combout [2] $end
+$var wire 1 + A~combout [1] $end
+$var wire 1 , A~combout [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+0"
+0#
+1$
+x%
+1&
+1'
+1(
+1)
+0,
+0+
+0*
+$end
+#75000
+b10 !
+1+
+0)
+1"
+#100000
+b110 !
+b111 !
+b101 !
+1,
+0+
+1*
+#175000
+b111 !
+1+
+#200000
+b11 !
+b1 !
+0+
+0*
+#275000
+b11 !
+1+
+#300000
+b111 !
+b101 !
+0+
+1*
+#375000
+b111 !
+1+
+#400000
+b110 !
+b10 !
+b0 !
+0,
+0+
+0*
+1)
+0"
+#475000
+b10 !
+1+
+0)
+1"
+#500000
+b11 !
+b111 !
+b101 !
+1,
+0+
+1*
+#575000
+b111 !
+1+
+#600000
+b11 !
+b1 !
+0+
+0*
+#675000
+b11 !
+1+
+#700000
+b111 !
+b101 !
+0+
+1*
+#775000
+b111 !
+1+
+#800000
+b110 !
+b10 !
+b0 !
+0,
+0+
+0*
+1)
+0"
+#875000
+b10 !
+1+
+0)
+1"
+#900000
+b11 !
+b111 !
+b101 !
+1,
+0+
+1*
+#975000
+b111 !
+1+
+#1000000

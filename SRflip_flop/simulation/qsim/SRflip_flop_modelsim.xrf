@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, D:/verilog_project/SRflip_flop/SRflip_flop.v
+source_file = 1, D:/verilog_project/SRflip_flop/Waveform.vwf
+source_file = 1, D:/verilog_project/SRflip_flop/Waveform1.vwf
+source_file = 1, D:/verilog_project/SRflip_flop/db/SRflip_flop.cbx.xml
+design_name = SRflip_flop
+instance = comp, \CP~I , CP, SRflip_flop, 1
+instance = comp, \R~I , R, SRflip_flop, 1
+instance = comp, \S~I , S, SRflip_flop, 1
+instance = comp, \Q~reg0 , Q~reg0, SRflip_flop, 1
+instance = comp, \Q~I , Q, SRflip_flop, 1

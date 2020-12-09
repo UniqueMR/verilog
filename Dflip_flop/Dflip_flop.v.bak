@@ -1,0 +1,19 @@
+module Dflip_flop(D,S,R,CP,Q,Qnot);
+	input D,CP,S,R;
+	output Q,Qnot;
+	reg Q,Qnot;
+	
+	always @(S,R)
+		begin
+			case({S,R})
+				2'b01 : D = 1;
+				2'b10 : D = 0;
+				default :;
+		end
+		
+	always @(posedge CP)
+		begin
+			Q = D;
+			Qnot = ~Q; 
+		end
+endmodule

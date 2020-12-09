@@ -1,0 +1,11 @@
+Fitter Status : Successful - Wed Dec 09 10:41:17 2020
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : encoder
+Top-level Entity Name : encoder
+Family : MAX II
+Device : EPM240T100C3
+Timing Models : Final
+Total logic elements : 8 / 240 ( 3 % )
+Total pins : 11 / 80 ( 14 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

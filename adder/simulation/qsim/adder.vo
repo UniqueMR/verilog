@@ -1,0 +1,187 @@
+// Copyright (C) 2019  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
+
+// DATE "12/08/2020 15:11:20"
+
+// 
+// Device: Altera EPM240T100C3 Package TQFP100
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module adder (
+	A,
+	B,
+	C0,
+	S,
+	C);
+input 	A;
+input 	B;
+input 	C0;
+output 	S;
+output 	C;
+
+// Design Ports Information
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \B~combout ;
+wire \A~combout ;
+wire \C0~combout ;
+wire \S~0_combout ;
+wire \C~0_combout ;
+
+
+// Location: PIN_14,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxii_io \B~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\B~combout ),
+	.padio(B));
+// synopsys translate_off
+defparam \B~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: PIN_37,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxii_io \A~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\A~combout ),
+	.padio(A));
+// synopsys translate_off
+defparam \A~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: PIN_61,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxii_io \C0~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\C0~combout ),
+	.padio(C0));
+// synopsys translate_off
+defparam \C0~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: LC_X4_Y2_N2
+maxii_lcell \S~0 (
+// Equation(s):
+// \S~0_combout  = (\A~combout  $ (((\B~combout  & \C0~combout ))))
+
+	.clk(gnd),
+	.dataa(vcc),
+	.datab(\B~combout ),
+	.datac(\A~combout ),
+	.datad(\C0~combout ),
+	.aclr(gnd),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.cin(gnd),
+	.cin0(gnd),
+	.cin1(vcc),
+	.inverta(gnd),
+	.regcascin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.combout(\S~0_combout ),
+	.regout(),
+	.cout(),
+	.cout0(),
+	.cout1());
+// synopsys translate_off
+defparam \S~0 .lut_mask = "3cf0";
+defparam \S~0 .operation_mode = "normal";
+defparam \S~0 .output_mode = "comb_only";
+defparam \S~0 .register_cascade_mode = "off";
+defparam \S~0 .sum_lutc_input = "datac";
+defparam \S~0 .synch_mode = "off";
+// synopsys translate_on
+
+// Location: LC_X4_Y2_N4
+maxii_lcell \C~0 (
+// Equation(s):
+// \C~0_combout  = (((\A~combout  & \C0~combout )))
+
+	.clk(gnd),
+	.dataa(vcc),
+	.datab(vcc),
+	.datac(\A~combout ),
+	.datad(\C0~combout ),
+	.aclr(gnd),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.cin(gnd),
+	.cin0(gnd),
+	.cin1(vcc),
+	.inverta(gnd),
+	.regcascin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.combout(\C~0_combout ),
+	.regout(),
+	.cout(),
+	.cout0(),
+	.cout1());
+// synopsys translate_off
+defparam \C~0 .lut_mask = "f000";
+defparam \C~0 .operation_mode = "normal";
+defparam \C~0 .output_mode = "comb_only";
+defparam \C~0 .register_cascade_mode = "off";
+defparam \C~0 .sum_lutc_input = "datac";
+defparam \C~0 .synch_mode = "off";
+// synopsys translate_on
+
+// Location: PIN_36,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
+maxii_io \S~I (
+	.datain(\S~0_combout ),
+	.oe(vcc),
+	.combout(),
+	.padio(S));
+// synopsys translate_off
+defparam \S~I .operation_mode = "output";
+// synopsys translate_on
+
+// Location: PIN_62,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
+maxii_io \C~I (
+	.datain(\C~0_combout ),
+	.oe(vcc),
+	.combout(),
+	.padio(C));
+// synopsys translate_off
+defparam \C~I .operation_mode = "output";
+// synopsys translate_on
+
+endmodule

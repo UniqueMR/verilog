@@ -1,0 +1,149 @@
+$comment
+	File created using the following command:
+		vcd file Tflip_flop.msim.vcd -direction
+$end
+$date
+	Wed Dec 09 11:07:18 2020
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module Tflip_flop_vlg_vec_tst $end
+$var reg 1 ! CP $end
+$var reg 1 " T $end
+$var wire 1 # Q $end
+
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var tri1 1 ' devclrn $end
+$var tri1 1 ( devpor $end
+$var tri1 1 ) devoe $end
+$var wire 1 * CP~combout $end
+$var wire 1 + T~combout $end
+$var wire 1 , Q~reg0_regout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+1%
+x&
+1'
+1(
+1)
+0*
+0+
+0,
+$end
+#50000
+1!
+1*
+#90750
+1"
+1+
+#100000
+0!
+0*
+#150000
+1!
+1*
+1,
+1#
+#165000
+0"
+0+
+#200000
+0!
+0*
+#250000
+1!
+1*
+#255750
+1"
+1+
+#300000
+0!
+0*
+#330000
+0"
+0+
+#350000
+1!
+1*
+#400000
+0!
+0*
+#420750
+1"
+1+
+#450000
+1!
+1*
+0,
+0#
+#495000
+0"
+0+
+#500000
+0!
+0*
+#550000
+1!
+1*
+#585750
+1"
+1+
+#600000
+0!
+0*
+#650000
+1!
+1*
+1,
+1#
+#660000
+0"
+0+
+#700000
+0!
+0*
+#750000
+1!
+1*
+#750750
+1"
+1+
+#800000
+0!
+0*
+#825000
+0"
+0+
+#850000
+1!
+1*
+#900000
+0!
+0*
+#915750
+1"
+1+
+#950000
+1!
+1*
+0,
+0#
+#990000
+0"
+0+
+#1000000

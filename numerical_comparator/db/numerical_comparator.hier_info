@@ -1,0 +1,10 @@
+|numerical_comparator
+A => U3.IN0
+A => U4.IN0
+B => U4.IN1
+B => U3.IN1
+Fmax <= U3.DB_MAX_OUTPUT_PORT_TYPE
+Fmin <= U4.DB_MAX_OUTPUT_PORT_TYPE
+Fequ <= U5.DB_MAX_OUTPUT_PORT_TYPE
+
+

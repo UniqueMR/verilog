@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/verilog_project/Dflip_flop/simulation/qsim
+vDflip_flop
+Z1 !s110 1607414013
+!i10b 1
+!s100 l52z>SBmI?57;OGJhY?;23
+IE:iV2455M0G66lF5`[gz:1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1607414012
+8Dflip_flop.vo
+FDflip_flop.vo
+L0 32
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1607414013.000000
+!s107 Dflip_flop.vo|
+!s90 -work|work|Dflip_flop.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@dflip_flop
+vDflip_flop_vlg_vec_tst
+R1
+!i10b 1
+!s100 [XJV3dZkB;eRGMcM<LAmG0
+IgoV2A0l[@MZS_7b<Q<h@n1
+R2
+R0
+w1607414011
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
+n@dflip_flop_vlg_vec_tst

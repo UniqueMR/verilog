@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, D:/verilog_project/numerical_comparator/numerical_comparator.v
+source_file = 1, D:/verilog_project/numerical_comparator/db/numerical_comparator.cbx.xml
+design_name = numerical_comparator
+instance = comp, \B~I , B, numerical_comparator, 1
+instance = comp, \A~I , A, numerical_comparator, 1
+instance = comp, \U5~0 , U5~0, numerical_comparator, 1
+instance = comp, \Fmax~I , Fmax, numerical_comparator, 1
+instance = comp, \Fmin~I , Fmin, numerical_comparator, 1
+instance = comp, \Fequ~I , Fequ, numerical_comparator, 1

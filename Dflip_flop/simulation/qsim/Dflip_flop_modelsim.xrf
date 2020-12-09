@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, D:/verilog_project/Dflip_flop/Dflip_flop.v
+source_file = 1, D:/verilog_project/Dflip_flop/db/Dflip_flop.cbx.xml
+design_name = Dflip_flop
+instance = comp, \CP~I , CP, Dflip_flop, 1
+instance = comp, \D~I , D, Dflip_flop, 1
+instance = comp, \Q~reg0 , Q~reg0, Dflip_flop, 1
+instance = comp, \Qnot~reg0 , Qnot~reg0, Dflip_flop, 1
+instance = comp, \Q~I , Q, Dflip_flop, 1
+instance = comp, \Qnot~I , Qnot, Dflip_flop, 1

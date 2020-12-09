@@ -1,0 +1,19 @@
+module adder(A,B,C_1,S,C);
+	input A,B,C_1;
+	output S,C;
+	reg S,C;
+	
+	always @(A,B,C_1)
+		begin
+			if(C_1 == 0)
+				S = A^B;
+				if(A == B == 1)
+					C = 1;
+				else C = 0;
+			else
+				S = A~^B;
+				if(A == B == 0)
+					C = 0;
+				else C = 1;
+		end
+endmodule

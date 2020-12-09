@@ -1,0 +1,189 @@
+$comment
+	File created using the following command:
+		vcd file JK_flip_flop.msim.vcd -direction
+$end
+$date
+	Tue Dec 08 16:03:55 2020
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module JK_flip_flop_vlg_vec_tst $end
+$var reg 1 ! CP $end
+$var reg 1 " J $end
+$var reg 1 # K $end
+$var wire 1 $ Q $end
+$var wire 1 % Qnot $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , CP~combout $end
+$var wire 1 - K~combout $end
+$var wire 1 . J~combout $end
+$var wire 1 / Q~reg0_regout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+1%
+0&
+1'
+x(
+1)
+1*
+1+
+0,
+0-
+0.
+0/
+$end
+#50000
+1!
+1,
+#56000
+1#
+1-
+#100000
+0!
+0,
+#123750
+1"
+1.
+#150000
+1!
+1,
+1/
+1$
+0%
+#165000
+0"
+0.
+#200000
+0!
+0,
+#224000
+0#
+0-
+#250000
+1!
+1,
+#280000
+1#
+1-
+#288750
+1"
+1.
+#300000
+0!
+0,
+#330000
+0"
+0.
+#350000
+1!
+1,
+0/
+0$
+1%
+#400000
+0!
+0,
+#448000
+0#
+0-
+#450000
+1!
+1,
+#453750
+1"
+1.
+#495000
+0"
+0.
+#500000
+0!
+0,
+#504000
+1#
+1-
+#550000
+1!
+1,
+#600000
+0!
+0,
+#618750
+1"
+1.
+#650000
+1!
+1,
+1/
+1$
+0%
+#660000
+0"
+0.
+#672000
+0#
+0-
+#700000
+0!
+0,
+#728000
+1#
+1-
+#750000
+1!
+1,
+0/
+0$
+1%
+#783750
+1"
+1.
+#800000
+0!
+0,
+#825000
+0"
+0.
+#850000
+1!
+1,
+#896000
+0#
+0-
+#900000
+0!
+0,
+#948750
+1"
+1.
+#950000
+1!
+1,
+1/
+1$
+0%
+#952000
+1#
+1-
+#990000
+0"
+0.
+#1000000

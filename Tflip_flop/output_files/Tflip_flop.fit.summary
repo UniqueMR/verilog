@@ -1,0 +1,11 @@
+Fitter Status : Successful - Wed Dec 09 11:06:17 2020
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : Tflip_flop
+Top-level Entity Name : Tflip_flop
+Family : MAX V
+Device : 5M40ZM64C4
+Timing Models : Final
+Total logic elements : 1 / 40 ( 3 % )
+Total pins : 3 / 30 ( 10 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/verilog_project/adder/simulation/qsim
+vadder
+Z1 !s110 1607411481
+!i10b 1
+!s100 jj9`7@`EOOCY6j5C2KOf90
+I<g6=dzcPS]=SGlami9iDk0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1607411480
+8adder.vo
+Fadder.vo
+L0 32
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1607411480.000000
+!s107 adder.vo|
+!s90 -work|work|adder.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vadder_vlg_vec_tst
+R1
+!i10b 1
+!s100 GDPj?d6e9MY@QNBm]0No30
+IGP`GGl<I6@A8f:FW8S1bP2
+R2
+R0
+w1607411479
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1607411481.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4
+R5
