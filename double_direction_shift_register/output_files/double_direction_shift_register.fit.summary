@@ -1,0 +1,11 @@
+Fitter Status : Successful - Wed Dec 09 16:13:24 2020
+Quartus Prime Version : 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+Revision Name : double_direction_shift_register
+Top-level Entity Name : double_direction_shift_register
+Family : MAX V
+Device : 5M40ZE64C4
+Timing Models : Final
+Total logic elements : 5 / 40 ( 13 % )
+Total pins : 13 / 54 ( 24 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

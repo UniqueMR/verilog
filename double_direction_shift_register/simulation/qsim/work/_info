@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/verilog/double_direction_shift_register/simulation/qsim
+vdouble_direction_shift_register
+Z1 !s110 1607501851
+!i10b 1
+!s100 Vk<<X8Y=BMG4B<_]?5iYK0
+IaMHCLT6OWCN_[cAJ57FM=2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1607501850
+8double_direction_shift_register.vo
+Fdouble_direction_shift_register.vo
+L0 32
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1607501851.000000
+!s107 double_direction_shift_register.vo|
+!s90 -work|work|double_direction_shift_register.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vdouble_direction_shift_register_vlg_vec_tst
+R1
+!i10b 1
+!s100 _c7]g6_K9G7RFSfj]4@am0
+I4Vof5Ed9U0bzIh1b@S:i53
+R2
+R0
+w1607501849
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6

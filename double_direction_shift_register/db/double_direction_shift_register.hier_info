@@ -1,0 +1,26 @@
+|double_direction_shift_register
+S1 => Mux0.IN0
+S1 => Mux1.IN0
+S1 => Mux2.IN0
+S1 => Mux3.IN0
+S0 => Mux0.IN1
+S0 => Mux1.IN1
+S0 => Mux2.IN1
+S0 => Mux3.IN1
+D[0] => Mux3.IN3
+D[1] => Mux2.IN2
+D[2] => Mux1.IN2
+D[3] => Mux0.IN3
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+DSL => Mux0.IN2
+DSL => Mux3.IN2
+DSR => ~NO_FANOUT~
+CP => Q[0]~reg0.CLK
+CP => Q[1]~reg0.CLK
+CP => Q[2]~reg0.CLK
+CP => Q[3]~reg0.CLK
+
+

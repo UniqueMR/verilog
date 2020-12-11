@@ -1,0 +1,28 @@
+|decrease_counter
+CR => Q[0]~reg0.ACLR
+CR => Q[1]~reg0.ACLR
+CR => Q[2]~reg0.ACLR
+CR => Q[3]~reg0.ACLR
+PE => TC.IN0
+PE => Q.OUTPUTSELECT
+PE => Q.OUTPUTSELECT
+PE => Q.OUTPUTSELECT
+PE => Q.OUTPUTSELECT
+CEP => CE.IN0
+CET => CE.IN1
+CET => TC.IN1
+CP => Q[0]~reg0.CLK
+CP => Q[1]~reg0.CLK
+CP => Q[2]~reg0.CLK
+CP => Q[3]~reg0.CLK
+D[0] => Q.DATAB
+D[1] => Q.DATAB
+D[2] => Q.DATAB
+D[3] => Q.DATAB
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+TC <= TC.DB_MAX_OUTPUT_PORT_TYPE
+
+

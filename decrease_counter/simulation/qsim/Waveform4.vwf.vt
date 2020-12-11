@@ -1,0 +1,125 @@
+// Copyright (C) 2019  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "12/11/2020 08:46:07"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          decrease_counter
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module decrease_counter_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg CEP;
+reg CET;
+reg CP;
+reg CR;
+reg [3:0] D;
+reg PE;
+// wires                                               
+wire [3:0] Q;
+wire TC;
+
+// assign statements (if any)                          
+decrease_counter i1 (
+// port map - connection between master ports and signals/registers   
+	.CEP(CEP),
+	.CET(CET),
+	.CP(CP),
+	.CR(CR),
+	.D(D),
+	.PE(PE),
+	.Q(Q),
+	.TC(TC)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+
+// CEP
+initial
+begin
+	CEP = 1'b0;
+	CEP = #170000 1'b1;
+	CEP = #400000 1'b0;
+	CEP = #210000 1'b1;
+end 
+
+// CET
+initial
+begin
+	CET = 1'b0;
+	CET = #170000 1'b1;
+	CET = #610000 1'b0;
+end 
+
+// CP
+always
+begin
+	CP = 1'b0;
+	CP = #12500 1'b1;
+	#12500;
+end 
+
+// CR
+initial
+begin
+	CR = 1'b1;
+	CR = #120000 1'b0;
+	CR = #20000 1'b1;
+end 
+// D[ 3 ]
+initial
+begin
+	D[3] = 1'b0;
+	D[3] = #20000 1'b1;
+	D[3] = #160000 1'b0;
+end 
+// D[ 2 ]
+initial
+begin
+	D[2] = 1'b0;
+	D[2] = #20000 1'b1;
+	D[2] = #160000 1'b0;
+end 
+// D[ 1 ]
+initial
+begin
+	D[1] = 1'b0;
+end 
+// D[ 0 ]
+initial
+begin
+	D[0] = 1'b0;
+end 
+
+// PE
+initial
+begin
+	PE = 1'b1;
+	PE = #140000 1'b0;
+	PE = #40000 1'b1;
+end 
+endmodule
+

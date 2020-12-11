@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/verilog/circuit_counter/simulation/qsim
+vcircuit_counter
+Z1 !s110 1607648289
+!i10b 1
+!s100 KHaJ4I[IcHEFT>?BkaI8D3
+I61gRz=Zmg=`Vi2>g3g]:O1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1607648288
+8circuit_counter.vo
+Fcircuit_counter.vo
+L0 32
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1607648289.000000
+!s107 circuit_counter.vo|
+!s90 -work|work|circuit_counter.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vcircuit_counter_vlg_vec_tst
+R1
+!i10b 1
+!s100 XS8nF3kZH]_UOgz?PU<LY2
+IHf]S5U:FegkJ[[F6Q@1?e0
+R2
+R0
+R3
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 30
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R6
+R7

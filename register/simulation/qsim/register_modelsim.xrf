@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, D:/verilog/register/register.v
+source_file = 1, D:/verilog/register/db/register.cbx.xml
+design_name = register
+instance = comp, \CP~I , CP, register, 1
+instance = comp, \D~I , D, register, 1
+instance = comp, \Q[0]~reg0 , Q[0]~reg0, register, 1
+instance = comp, \Q[1]~reg0 , Q[1]~reg0, register, 1
+instance = comp, \Q[2]~reg0 , Q[2]~reg0, register, 1
+instance = comp, \Q[3]~reg0 , Q[3]~reg0, register, 1
+instance = comp, \Q[0]~I , Q[0], register, 1
+instance = comp, \Q[1]~I , Q[1], register, 1
+instance = comp, \Q[2]~I , Q[2], register, 1
+instance = comp, \Q[3]~I , Q[3], register, 1

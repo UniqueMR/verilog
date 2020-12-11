@@ -1,0 +1,56 @@
+$comment
+	File created using the following command:
+		vcd file circuit_counter.msim.vcd -direction
+$end
+$date
+	Fri Dec 11 08:58:10 2020
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module circuit_counter_vlg_vec_tst $end
+$var reg 1 ! CP $end
+$var wire 1 " Q [3] $end
+$var wire 1 # Q [2] $end
+$var wire 1 $ Q [1] $end
+$var wire 1 % Q [0] $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , CP~combout $end
+$var wire 1 - Q[1]~reg0_regout $end
+$var wire 1 . Q[3]~reg0_regout $end
+$var wire 1 / Q[2]~reg0_regout $end
+$var wire 1 0 Q[0]~reg0_regout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0%
+0$
+0#
+0"
+0&
+1'
+x(
+1)
+1*
+1+
+0,
+0-
+0.
+0/
+00
+$end
+#1000000
