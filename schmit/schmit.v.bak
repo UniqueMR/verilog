@@ -1,0 +1,14 @@
+module schmit(data_in,high_level,low_level,out,clk,reset);
+	input data_in,high_level,low_level,clk,reset;
+	output out;
+	reg out;
+	
+	assign high_level = 1'd5;
+	assign low_level = 1'd1;
+
+	always @(posedge clk or negedge reset)
+	begin:schmit
+		if(!reset) out = 1'b0;
+		else	out = (data_in > high_level)? 1'b1 : (data_in < low_level)? 1'b0:out;
+	end
+endmodule

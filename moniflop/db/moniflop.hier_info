@@ -1,0 +1,12 @@
+|moniflop
+A1 => always1.IN0
+A1 => ans2.CLK
+A2 => ans3.CLK
+A2 => always1.IN1
+B => ans1.CLK
+B => ans2.DATAIN
+B => ans3.DATAIN
+Q <= always0.DB_MAX_OUTPUT_PORT_TYPE
+Qnot <= always0.DB_MAX_OUTPUT_PORT_TYPE
+
+

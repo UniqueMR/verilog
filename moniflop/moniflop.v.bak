@@ -1,0 +1,19 @@
+module moniflop(A1,A2,B,Q,Qnot);
+	input A1,A2,B;
+	output Q,Qnot;
+	reg Q,Qnot;
+	
+	always @(A1,A2,B)
+	begin
+		if((A1&A2	!= 1'b0 && posedge B)||(B == 1'b1 && (negedge A1)||(negedge A2)))
+			begin
+				Q = 1'b1;
+				Qnot = ~Q;
+			end 
+		else
+			begin
+				Q = 1'b0;
+				Qnot = ~Q;
+			end
+	end
+endmodule

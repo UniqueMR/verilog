@@ -1,0 +1,110 @@
+// Copyright (C) 2019  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
+
+// DATE "12/22/2020 16:19:00"
+
+// 
+// Device: Altera 5M40ZM64C4 Package MBGA64
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module MC14528 (
+	RD,
+	TRP,
+	TRN,
+	Q,
+	Qnot);
+input 	RD;
+input 	TRP;
+input 	TRN;
+output 	Q;
+output 	Qnot;
+
+// Design Ports Information
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+
+
+// Location: PIN_B7,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \RD~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(),
+	.padio(RD));
+// synopsys translate_off
+defparam \RD~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: PIN_C8,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \TRP~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(),
+	.padio(TRP));
+// synopsys translate_off
+defparam \TRP~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: PIN_B1,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \TRN~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(),
+	.padio(TRN));
+// synopsys translate_off
+defparam \TRN~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: PIN_F8,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
+maxv_io \Q~I (
+	.datain(gnd),
+	.oe(vcc),
+	.combout(),
+	.padio(Q));
+// synopsys translate_off
+defparam \Q~I .operation_mode = "output";
+// synopsys translate_on
+
+// Location: PIN_D8,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
+maxv_io \Qnot~I (
+	.datain(vcc),
+	.oe(vcc),
+	.combout(),
+	.padio(Qnot));
+// synopsys translate_off
+defparam \Qnot~I .operation_mode = "output";
+// synopsys translate_on
+
+endmodule

@@ -1,0 +1,8 @@
+|MC14528
+RD => ~NO_FANOUT~
+TRP => ~NO_FANOUT~
+TRN => ~NO_FANOUT~
+Q <= <GND>
+Qnot <= <VCC>
+
+

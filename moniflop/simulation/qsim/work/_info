@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/verilog/moniflop/simulation/qsim
+vmoniflop
+Z1 !s110 1608622868
+!i10b 1
+!s100 ^N21@UiZ1U^5VzE`TEjLD3
+Ihd>P6mEBc08mHc:5`;W9:1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1608622867
+8moniflop.vo
+Fmoniflop.vo
+L0 32
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1608622868.000000
+!s107 moniflop.vo|
+!s90 -work|work|moniflop.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vmoniflop_vlg_vec_tst
+R1
+!i10b 1
+!s100 3J?HU?OMzS3[c9GoA27h@0
+Id>zhUiZPi6c9JPVFRej9g0
+R2
+R0
+w1608622866
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6

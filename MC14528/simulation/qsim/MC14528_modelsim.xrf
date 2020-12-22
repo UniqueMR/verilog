@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, D:/verilog/MC14528/MC14528.v
+source_file = 1, D:/verilog/MC14528/Waveform.vwf
+source_file = 1, D:/verilog/MC14528/db/MC14528.cbx.xml
+design_name = MC14528
+instance = comp, \RD~I , RD, MC14528, 1
+instance = comp, \TRP~I , TRP, MC14528, 1
+instance = comp, \TRN~I , TRN, MC14528, 1
+instance = comp, \Q~I , Q, MC14528, 1
+instance = comp, \Qnot~I , Qnot, MC14528, 1
