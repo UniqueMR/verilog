@@ -1,0 +1,25 @@
+|HC4511
+LE => Y[6]$latch.LATCH_ENABLE
+LE => Y[5]$latch.LATCH_ENABLE
+LE => Y[4]$latch.LATCH_ENABLE
+LE => Y[3]$latch.LATCH_ENABLE
+LE => Y[2]$latch.LATCH_ENABLE
+LE => Y[1]$latch.LATCH_ENABLE
+LE => Y[0]$latch.LATCH_ENABLE
+BL => Y[6].IN0
+LT => comb.IN1
+LT => Y[6].IN1
+LT => comb.IN1
+D[0] => Decoder0.IN3
+D[1] => Decoder0.IN2
+D[2] => Decoder0.IN1
+D[3] => Decoder0.IN0
+Y[0] <= Y[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Y[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Y[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Y[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[4] <= Y[4]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[5] <= Y[5]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Y[6] <= Y[6]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

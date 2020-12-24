@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/verilog/HC4511/simulation/qsim
+vHC4511
+Z1 !s110 1608784673
+!i10b 1
+!s100 oP]gljjzR1f2kGIngB^C_3
+INI4W4RPOf66LQ8YO<d1IF3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1608784672
+8HC4511.vo
+FHC4511.vo
+L0 32
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1608784673.000000
+!s107 HC4511.vo|
+!s90 -work|work|HC4511.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@h@c4511
+vHC4511_vlg_vec_tst
+R1
+!i10b 1
+!s100 md]eiWfS>`85BJQzdSDJZ0
+I7f2Lf1Y`NZDc8=kE^BoC`0
+R2
+R0
+w1608784671
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R5
+R6
+n@h@c4511_vlg_vec_tst
