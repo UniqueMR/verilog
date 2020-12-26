@@ -1,5 +1,5 @@
 EDA Netlist Writer report for numerical_comparator
-Tue Dec 08 15:27:36 2020
+Sat Dec 26 20:10:55 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Tue Dec 08 15:27:36 2020 ;
+; EDA Netlist Writer Status ; Successful - Sat Dec 26 20:10:55 2020 ;
 ; Revision Name             ; numerical_comparator                  ;
 ; Top-level Entity Name     ; numerical_comparator                  ;
 ; Family                    ; MAX V                                 ;
@@ -66,13 +66,13 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+----------------------------------------------------------------------------------+
-; Simulation Generated Files                                                       ;
-+----------------------------------------------------------------------------------+
-; Generated Files                                                                  ;
-+----------------------------------------------------------------------------------+
-; D:/verilog_project/numerical_comparator/simulation/qsim//numerical_comparator.vo ;
-+----------------------------------------------------------------------------------+
++--------------------------------------------------------------------------+
+; Simulation Generated Files                                               ;
++--------------------------------------------------------------------------+
+; Generated Files                                                          ;
++--------------------------------------------------------------------------+
+; D:/verilog/numerical_comparator/simulation/qsim//numerical_comparator.vo ;
++--------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -95,14 +95,14 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details, at
     Info: https://fpgasoftware.intel.com/eula.
-    Info: Processing started: Tue Dec 08 15:27:35 2020
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/verilog_project/numerical_comparator/simulation/qsim/ numerical_comparator -c numerical_comparator
+    Info: Processing started: Sat Dec 26 20:10:54 2020
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/verilog/numerical_comparator/simulation/qsim/ numerical_comparator -c numerical_comparator
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file numerical_comparator.vo in folder "D:/verilog_project/numerical_comparator/simulation/qsim//" for EDA simulation tool
+Info (204019): Generated file numerical_comparator.vo in folder "D:/verilog/numerical_comparator/simulation/qsim//" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4628 megabytes
-    Info: Processing ended: Tue Dec 08 15:27:36 2020
+    Info: Processing ended: Sat Dec 26 20:10:55 2020
     Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
 
 

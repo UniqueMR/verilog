@@ -1,32 +1,33 @@
 # do numerical_comparator.do
+# ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:27:37 on Dec 08,2020
+# Start time: 20:10:55 on Dec 26,2020
 # vlog -work work numerical_comparator.vo 
 # -- Compiling module numerical_comparator
 # 
 # Top level modules:
 # 	numerical_comparator
-# End time: 15:27:37 on Dec 08,2020, Elapsed time: 0:00:00
+# End time: 20:10:55 on Dec 26,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:27:37 on Dec 08,2020
-# vlog -work work Waveform.vwf.vt 
+# Start time: 20:10:55 on Dec 26,2020
+# vlog -work work Waveform2.vwf.vt 
 # -- Compiling module numerical_comparator_vlg_vec_tst
 # 
 # Top level modules:
 # 	numerical_comparator_vlg_vec_tst
-# End time: 15:27:37 on Dec 08,2020, Elapsed time: 0:00:00
+# End time: 20:10:55 on Dec 26,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -novopt -c -t 1ps -L maxv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.numerical_comparator_vlg_vec_tst 
-# Start time: 15:27:37 on Dec 08,2020
+# Start time: 20:10:55 on Dec 26,2020
 # Loading work.numerical_comparator_vlg_vec_tst
 # Loading work.numerical_comparator
 # Loading maxv_ver.maxv_io
 # Loading maxv_ver.maxv_lcell
 # Loading maxv_ver.maxv_asynch_lcell
 # Loading maxv_ver.maxv_lcell_register
-# after#23
-# ** Note: $finish    : Waveform.vwf.vt(51)
+# after#25
+# ** Note: $finish    : Waveform2.vwf.vt(51)
 #    Time: 1 us  Iteration: 0  Instance: /numerical_comparator_vlg_vec_tst
-# End time: 15:27:37 on Dec 08,2020, Elapsed time: 0:00:00
+# End time: 20:10:56 on Dec 26,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0

@@ -1,10 +1,38 @@
 |numerical_comparator
-A => U3.IN0
-A => U4.IN0
-B => U4.IN1
-B => U3.IN1
-Fmax <= U3.DB_MAX_OUTPUT_PORT_TYPE
-Fmin <= U4.DB_MAX_OUTPUT_PORT_TYPE
-Fequ <= U5.DB_MAX_OUTPUT_PORT_TYPE
+A[0] => Fmax0.IN0
+A[0] => Fequ0.IN0
+A[0] => Fmin0.IN0
+A[0] => Fequ0.IN0
+A[1] => Fmax1.IN0
+A[1] => Fequ1.IN0
+A[1] => Fequ1.IN0
+A[1] => Fmin1.IN0
+A[2] => Fmax2.IN0
+A[2] => Fequ2.IN0
+A[2] => Fequ2.IN0
+A[2] => Fmin2.IN0
+A[3] => Fmax3.IN0
+A[3] => Fequ3.IN0
+A[3] => Fequ3.IN0
+A[3] => Fmin3.IN0
+B[0] => Fmin0.IN1
+B[0] => Fequ0.IN1
+B[0] => Fmax0.IN1
+B[0] => Fequ0.IN1
+B[1] => Fmin1.IN1
+B[1] => Fequ1.IN1
+B[1] => Fequ1.IN1
+B[1] => Fmax1.IN1
+B[2] => Fmin2.IN1
+B[2] => Fequ2.IN1
+B[2] => Fequ2.IN1
+B[2] => Fmax2.IN1
+B[3] => Fmin3.IN1
+B[3] => Fequ3.IN1
+B[3] => Fequ3.IN1
+B[3] => Fmax3.IN1
+Fmax <= Fmax.DB_MAX_OUTPUT_PORT_TYPE
+Fmin <= Fmin.DB_MAX_OUTPUT_PORT_TYPE
+Fequ <= Fequ.DB_MAX_OUTPUT_PORT_TYPE
 
 

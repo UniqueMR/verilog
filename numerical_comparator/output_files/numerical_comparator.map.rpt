@@ -1,5 +1,5 @@
 Analysis & Synthesis report for numerical_comparator
-Tue Dec 08 15:26:08 2020
+Sat Dec 26 20:04:14 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -41,13 +41,13 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Tue Dec 08 15:26:08 2020       ;
+; Analysis & Synthesis Status ; Successful - Sat Dec 26 20:04:14 2020       ;
 ; Quartus Prime Version       ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name               ; numerical_comparator                        ;
 ; Top-level Entity Name       ; numerical_comparator                        ;
 ; Family                      ; MAX V                                       ;
-; Total logic elements        ; 3                                           ;
-; Total pins                  ; 5                                           ;
+; Total logic elements        ; 9                                           ;
+; Total pins                  ; 11                                          ;
 ; Total virtual pins          ; 0                                           ;
 ; UFM blocks                  ; 0 / 1 ( 0 % )                               ;
 +-----------------------------+---------------------------------------------+
@@ -139,13 +139,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                 ;
-+----------------------------------+-----------------+------------------------+----------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                   ; Library ;
-+----------------------------------+-----------------+------------------------+----------------------------------------------------------------+---------+
-; numerical_comparator.v           ; yes             ; User Verilog HDL File  ; D:/verilog_project/numerical_comparator/numerical_comparator.v ;         ;
-+----------------------------------+-----------------+------------------------+----------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                         ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                           ; Library ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------+---------+
+; numerical_comparator.v           ; yes             ; User Verilog HDL File  ; D:/verilog/numerical_comparator/numerical_comparator.v ;         ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------+
@@ -153,20 +153,20 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Total logic elements                        ; 3     ;
-;     -- Combinational with no register       ; 3     ;
+; Total logic elements                        ; 9     ;
+;     -- Combinational with no register       ; 9     ;
 ;     -- Register only                        ; 0     ;
 ;     -- Combinational with a register        ; 0     ;
 ;                                             ;       ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 0     ;
-;     -- 3 input functions                    ; 0     ;
-;     -- 2 input functions                    ; 3     ;
+;     -- 4 input functions                    ; 6     ;
+;     -- 3 input functions                    ; 2     ;
+;     -- 2 input functions                    ; 1     ;
 ;     -- 1 input functions                    ; 0     ;
 ;     -- 0 input functions                    ; 0     ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 3     ;
+;     -- normal mode                          ; 9     ;
 ;     -- arithmetic mode                      ; 0     ;
 ;     -- qfbk mode                            ; 0     ;
 ;     -- register cascade mode                ; 0     ;
@@ -174,11 +174,11 @@ https://fpgasoftware.intel.com/eula.
 ;     -- asynchronous clear/load mode         ; 0     ;
 ;                                             ;       ;
 ; Total registers                             ; 0     ;
-; I/O pins                                    ; 5     ;
-; Maximum fan-out node                        ; A     ;
+; I/O pins                                    ; 11    ;
+; Maximum fan-out node                        ; A[3]  ;
 ; Maximum fan-out                             ; 3     ;
-; Total fan-out                               ; 9     ;
-; Average fan-out                             ; 1.13  ;
+; Total fan-out                               ; 35    ;
+; Average fan-out                             ; 1.75  ;
 +---------------------------------------------+-------+
 
 
@@ -187,7 +187,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-----------------------+----------------------+--------------+
 ; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name   ; Entity Name          ; Library Name ;
 +----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-----------------------+----------------------+--------------+
-; |numerical_comparator      ; 3 (3)       ; 0            ; 0          ; 5    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |numerical_comparator ; numerical_comparator ; work         ;
+; |numerical_comparator      ; 9 (9)       ; 0            ; 0          ; 11   ; 0            ; 9 (9)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |numerical_comparator ; numerical_comparator ; work         ;
 +----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+-----------------------+----------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -213,21 +213,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Tue Dec 08 15:25:57 2020
+    Info: Processing started: Sat Dec 26 20:04:06 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off numerical_comparator -c numerical_comparator
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file numerical_comparator.v
-    Info (12023): Found entity 1: numerical_comparator File: D:/verilog_project/numerical_comparator/numerical_comparator.v Line: 1
+    Info (12023): Found entity 1: numerical_comparator File: D:/verilog/numerical_comparator/numerical_comparator.v Line: 1
 Info (12127): Elaborating entity "numerical_comparator" for the top level hierarchy
-Info (21057): Implemented 8 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 2 input pins
+Info (21057): Implemented 20 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 8 input pins
     Info (21059): Implemented 3 output pins
-    Info (21061): Implemented 3 logic cells
+    Info (21061): Implemented 9 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4715 megabytes
-    Info: Processing ended: Tue Dec 08 15:26:08 2020
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:30
+    Info: Peak virtual memory: 4707 megabytes
+    Info: Processing ended: Sat Dec 26 20:04:14 2020
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:22
 
 

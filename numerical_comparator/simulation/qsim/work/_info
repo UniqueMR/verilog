@@ -7,15 +7,15 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dD:/verilog_project/numerical_comparator/simulation/qsim
+dD:/verilog_project/numerical_comparator/simulation/qsim
 vnumerical_comparator
-Z1 !s110 1607412457
+Z0 !s110 1608984655
 !i10b 1
-!s100 g[ba<=Aj[lDEBFCa8gUVo2
-IDb^HUJA1l=e^W`QZN_g6>3
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-R0
-w1607412456
+!s100 JffWh6jY2QoZjcjB;dOZS0
+I8?W65DSSDjE2=?Bfk3Cd^2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/verilog/numerical_comparator/simulation/qsim
+w1608984655
 8numerical_comparator.vo
 Fnumerical_comparator.vo
 L0 32
@@ -23,30 +23,30 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1607412457.000000
+Z4 !s108 1608984655.000000
 !s107 numerical_comparator.vo|
 !s90 -work|work|numerical_comparator.vo|
 !i113 1
 Z5 o-work work
 Z6 tCvgOpt 0
 vnumerical_comparator_vlg_vec_tst
-R1
-!i10b 1
-!s100 NK_Nbc^IPDRcA5XG6P?^z3
-I]joUmi_PXOf5Z0efF0<4F3
-R2
 R0
-w1607412455
-8Waveform.vwf.vt
-FWaveform.vwf.vt
+!i10b 1
+!s100 A`_b<JkE_mfkkkmSdX^QX0
+I6l;4_d;hQIG=Ni?0lBmON2
+R1
+R2
+w1608984654
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
 L0 30
 R3
 r1
 !s85 0
 31
 R4
-!s107 Waveform.vwf.vt|
-!s90 -work|work|Waveform.vwf.vt|
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
 !i113 1
 R5
 R6
