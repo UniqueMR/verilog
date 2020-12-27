@@ -26,7 +26,7 @@ module double_direction_shift_register(S1,S0,D,Q,DSL,DSR,CP);
 						Q[3] <= Q[2];
 						Q[2] <= Q[1];
 						Q[1] <= Q[0];
-						Q[0] <= DSL;
+						Q[0] <= DSR;
 					end
 				default :; 
 			endcase

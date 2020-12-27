@@ -1,5 +1,5 @@
 Analysis & Synthesis report for double_direction_shift_register
-Wed Dec 09 16:13:21 2020
+Sun Dec 27 15:03:00 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                              ;
 +-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Wed Dec 09 16:13:21 2020       ;
+; Analysis & Synthesis Status ; Successful - Sun Dec 27 15:03:00 2020       ;
 ; Quartus Prime Version       ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name               ; double_direction_shift_register             ;
 ; Top-level Entity Name       ; double_direction_shift_register             ;
@@ -223,23 +223,21 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Wed Dec 09 16:13:11 2020
+    Info: Processing started: Sun Dec 27 15:02:48 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off double_direction_shift_register -c double_direction_shift_register
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file double_direction_shift_register.v
     Info (12023): Found entity 1: double_direction_shift_register File: D:/verilog/double_direction_shift_register/double_direction_shift_register.v Line: 1
 Info (12127): Elaborating entity "double_direction_shift_register" for the top level hierarchy
-Warning (21074): Design contains 1 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "DSR" File: D:/verilog/double_direction_shift_register/double_direction_shift_register.v Line: 2
 Info (21057): Implemented 18 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 9 input pins
     Info (21059): Implemented 4 output pins
     Info (21061): Implemented 5 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 4711 megabytes
-    Info: Processing ended: Wed Dec 09 16:13:21 2020
-    Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:28
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4707 megabytes
+    Info: Processing ended: Sun Dec 27 15:03:00 2020
+    Info: Elapsed time: 00:00:12
+    Info: Total CPU time (on all processors): 00:00:25
 
 
