@@ -1,0 +1,376 @@
+// Copyright (C) 2019  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition"
+
+// DATE "12/30/2020 22:41:54"
+
+// 
+// Device: Altera 5M40ZE64C4 Package EQFP64
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module HC151 (
+	E,
+	S,
+	D,
+	Y);
+input 	E;
+input 	[2:0] S;
+input 	[7:0] D;
+output 	Y;
+
+// Design Ports Information
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \Mux0~0_combout ;
+wire \Mux0~1_combout ;
+wire \Mux0~2_combout ;
+wire \Mux0~3_combout ;
+wire \E~combout ;
+wire \Mux0~4_combout ;
+wire [7:0] \D~combout ;
+wire [2:0] \S~combout ;
+
+
+// Location: PIN_27,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \D[5]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\D~combout [5]),
+	.padio(D[5]));
+// synopsys translate_off
+defparam \D[5]~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: PIN_35,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \D[7]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\D~combout [7]),
+	.padio(D[7]));
+// synopsys translate_off
+defparam \D[7]~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: PIN_28,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \S[0]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\S~combout [0]),
+	.padio(S[0]));
+// synopsys translate_off
+defparam \S[0]~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: PIN_25,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \D[4]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\D~combout [4]),
+	.padio(D[4]));
+// synopsys translate_off
+defparam \D[4]~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: PIN_10,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \D[6]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\D~combout [6]),
+	.padio(D[6]));
+// synopsys translate_off
+defparam \D[6]~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: PIN_47,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \S[1]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\S~combout [1]),
+	.padio(S[1]));
+// synopsys translate_off
+defparam \S[1]~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: LC_X4_Y1_N5
+maxv_lcell \Mux0~0 (
+// Equation(s):
+// \Mux0~0_combout  = (\S~combout [0] & (((\S~combout [1])))) # (!\S~combout [0] & ((\S~combout [1] & ((\D~combout [6]))) # (!\S~combout [1] & (\D~combout [4]))))
+
+	.clk(gnd),
+	.dataa(\S~combout [0]),
+	.datab(\D~combout [4]),
+	.datac(\D~combout [6]),
+	.datad(\S~combout [1]),
+	.aclr(gnd),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.cin(gnd),
+	.cin0(gnd),
+	.cin1(vcc),
+	.inverta(gnd),
+	.regcascin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.combout(\Mux0~0_combout ),
+	.regout(),
+	.cout(),
+	.cout0(),
+	.cout1());
+// synopsys translate_off
+defparam \Mux0~0 .lut_mask = "fa44";
+defparam \Mux0~0 .operation_mode = "normal";
+defparam \Mux0~0 .output_mode = "comb_only";
+defparam \Mux0~0 .register_cascade_mode = "off";
+defparam \Mux0~0 .sum_lutc_input = "datac";
+defparam \Mux0~0 .synch_mode = "off";
+// synopsys translate_on
+
+// Location: LC_X4_Y1_N6
+maxv_lcell \Mux0~1 (
+// Equation(s):
+// \Mux0~1_combout  = (\S~combout [0] & ((\Mux0~0_combout  & ((\D~combout [7]))) # (!\Mux0~0_combout  & (\D~combout [5])))) # (!\S~combout [0] & (((\Mux0~0_combout ))))
+
+	.clk(gnd),
+	.dataa(\D~combout [5]),
+	.datab(\D~combout [7]),
+	.datac(\S~combout [0]),
+	.datad(\Mux0~0_combout ),
+	.aclr(gnd),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.cin(gnd),
+	.cin0(gnd),
+	.cin1(vcc),
+	.inverta(gnd),
+	.regcascin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.combout(\Mux0~1_combout ),
+	.regout(),
+	.cout(),
+	.cout0(),
+	.cout1());
+// synopsys translate_off
+defparam \Mux0~1 .lut_mask = "cfa0";
+defparam \Mux0~1 .operation_mode = "normal";
+defparam \Mux0~1 .output_mode = "comb_only";
+defparam \Mux0~1 .register_cascade_mode = "off";
+defparam \Mux0~1 .sum_lutc_input = "datac";
+defparam \Mux0~1 .synch_mode = "off";
+// synopsys translate_on
+
+// Location: PIN_24,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \D[1]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\D~combout [1]),
+	.padio(D[1]));
+// synopsys translate_off
+defparam \D[1]~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: PIN_18,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \D[0]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\D~combout [0]),
+	.padio(D[0]));
+// synopsys translate_off
+defparam \D[0]~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: LC_X4_Y1_N4
+maxv_lcell \Mux0~2 (
+// Equation(s):
+// \Mux0~2_combout  = (\S~combout [0] & ((\D~combout [1]) # ((\S~combout [1])))) # (!\S~combout [0] & (((\D~combout [0] & !\S~combout [1]))))
+
+	.clk(gnd),
+	.dataa(\S~combout [0]),
+	.datab(\D~combout [1]),
+	.datac(\D~combout [0]),
+	.datad(\S~combout [1]),
+	.aclr(gnd),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.cin(gnd),
+	.cin0(gnd),
+	.cin1(vcc),
+	.inverta(gnd),
+	.regcascin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.combout(\Mux0~2_combout ),
+	.regout(),
+	.cout(),
+	.cout0(),
+	.cout1());
+// synopsys translate_off
+defparam \Mux0~2 .lut_mask = "aad8";
+defparam \Mux0~2 .operation_mode = "normal";
+defparam \Mux0~2 .output_mode = "comb_only";
+defparam \Mux0~2 .register_cascade_mode = "off";
+defparam \Mux0~2 .sum_lutc_input = "datac";
+defparam \Mux0~2 .synch_mode = "off";
+// synopsys translate_on
+
+// Location: PIN_37,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \D[2]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\D~combout [2]),
+	.padio(D[2]));
+// synopsys translate_off
+defparam \D[2]~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: PIN_12,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \D[3]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\D~combout [3]),
+	.padio(D[3]));
+// synopsys translate_off
+defparam \D[3]~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: LC_X4_Y1_N2
+maxv_lcell \Mux0~3 (
+// Equation(s):
+// \Mux0~3_combout  = (\Mux0~2_combout  & (((\D~combout [3]) # (!\S~combout [1])))) # (!\Mux0~2_combout  & (\D~combout [2] & ((\S~combout [1]))))
+
+	.clk(gnd),
+	.dataa(\Mux0~2_combout ),
+	.datab(\D~combout [2]),
+	.datac(\D~combout [3]),
+	.datad(\S~combout [1]),
+	.aclr(gnd),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.cin(gnd),
+	.cin0(gnd),
+	.cin1(vcc),
+	.inverta(gnd),
+	.regcascin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.combout(\Mux0~3_combout ),
+	.regout(),
+	.cout(),
+	.cout0(),
+	.cout1());
+// synopsys translate_off
+defparam \Mux0~3 .lut_mask = "e4aa";
+defparam \Mux0~3 .operation_mode = "normal";
+defparam \Mux0~3 .output_mode = "comb_only";
+defparam \Mux0~3 .register_cascade_mode = "off";
+defparam \Mux0~3 .sum_lutc_input = "datac";
+defparam \Mux0~3 .synch_mode = "off";
+// synopsys translate_on
+
+// Location: PIN_13,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \S[2]~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\S~combout [2]),
+	.padio(S[2]));
+// synopsys translate_off
+defparam \S[2]~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: PIN_26,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: Default
+maxv_io \E~I (
+	.datain(gnd),
+	.oe(gnd),
+	.combout(\E~combout ),
+	.padio(E));
+// synopsys translate_off
+defparam \E~I .operation_mode = "input";
+// synopsys translate_on
+
+// Location: LC_X4_Y1_N8
+maxv_lcell \Mux0~4 (
+// Equation(s):
+// \Mux0~4_combout  = (!\E~combout  & ((\S~combout [2] & (\Mux0~1_combout )) # (!\S~combout [2] & ((\Mux0~3_combout )))))
+
+	.clk(gnd),
+	.dataa(\Mux0~1_combout ),
+	.datab(\Mux0~3_combout ),
+	.datac(\S~combout [2]),
+	.datad(\E~combout ),
+	.aclr(gnd),
+	.aload(gnd),
+	.sclr(gnd),
+	.sload(gnd),
+	.ena(vcc),
+	.cin(gnd),
+	.cin0(gnd),
+	.cin1(vcc),
+	.inverta(gnd),
+	.regcascin(gnd),
+	.devclrn(devclrn),
+	.devpor(devpor),
+	.combout(\Mux0~4_combout ),
+	.regout(),
+	.cout(),
+	.cout0(),
+	.cout1());
+// synopsys translate_off
+defparam \Mux0~4 .lut_mask = "00ac";
+defparam \Mux0~4 .operation_mode = "normal";
+defparam \Mux0~4 .output_mode = "comb_only";
+defparam \Mux0~4 .register_cascade_mode = "off";
+defparam \Mux0~4 .sum_lutc_input = "datac";
+defparam \Mux0~4 .synch_mode = "off";
+// synopsys translate_on
+
+// Location: PIN_22,	 I/O Standard: 3.3-V LVTTL,	 Current Strength: 16mA
+maxv_io \Y~I (
+	.datain(\Mux0~4_combout ),
+	.oe(vcc),
+	.combout(),
+	.padio(Y));
+// synopsys translate_off
+defparam \Y~I .operation_mode = "output";
+// synopsys translate_on
+
+endmodule

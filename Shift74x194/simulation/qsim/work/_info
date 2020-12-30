@@ -1,0 +1,54 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/verilog/Shift74x194/simulation/qsim
+vShift74x194
+Z1 !s110 1609131299
+!i10b 1
+!s100 Jg=MR=G?CDBY?ZFae0X6Z1
+Ia7k?`Da`z7Cz<:bV`9P5B3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1609131299
+8Shift74x194.vo
+FShift74x194.vo
+L0 32
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1609131299.000000
+!s107 Shift74x194.vo|
+!s90 -work|work|Shift74x194.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@shift74x194
+vShift74x194_vlg_vec_tst
+R1
+!i10b 1
+!s100 ;ViLKZ0Oa?8cg5EbhPQNT3
+I1UijIP_8j2c4C=C8Ci3hk0
+R2
+R0
+w1609131298
+8Waveform1.vwf.vt
+FWaveform1.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform1.vwf.vt|
+!s90 -work|work|Waveform1.vwf.vt|
+!i113 1
+R5
+R6
+n@shift74x194_vlg_vec_tst

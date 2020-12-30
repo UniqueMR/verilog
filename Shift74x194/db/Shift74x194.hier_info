@@ -1,0 +1,29 @@
+|Shift74x194
+S1 => Mux0.IN0
+S1 => Mux1.IN0
+S1 => Mux2.IN0
+S1 => Mux3.IN0
+S0 => Mux0.IN1
+S0 => Mux1.IN1
+S0 => Mux2.IN1
+S0 => Mux3.IN1
+Din[0] => Mux3.IN3
+Din[1] => Mux2.IN2
+Din[2] => Mux1.IN2
+Din[3] => Mux0.IN3
+Dsl => Mux3.IN2
+Dsr => Mux0.IN2
+Q[0] <= Q[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+CP => Q[0]~reg0.CLK
+CP => Q[1]~reg0.CLK
+CP => Q[2]~reg0.CLK
+CP => Q[3]~reg0.CLK
+CR => Q[0]~reg0.ACLR
+CR => Q[1]~reg0.ACLR
+CR => Q[2]~reg0.ACLR
+CR => Q[3]~reg0.ACLR
+
+

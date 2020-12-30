@@ -1,5 +1,5 @@
 Flow report for circuit_counter
-Fri Dec 11 08:58:08 2020
+Sun Dec 27 23:05:13 2020
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------+
 ; Flow Summary                                                        ;
 +-----------------------+---------------------------------------------+
-; Flow Status           ; Successful - Fri Dec 11 08:58:08 2020       ;
+; Flow Status           ; Successful - Sun Dec 27 23:05:13 2020       ;
 ; Quartus Prime Version ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name         ; circuit_counter                             ;
 ; Top-level Entity Name ; circuit_counter                             ;
@@ -87,7 +87,9 @@ https://fpgasoftware.intel.com/eula.
 ; Timing Analyzer      ; 00:00:01     ; 1.0                     ; 4684 MB             ; 00:00:01                           ;
 ; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4616 MB             ; 00:00:00                           ;
 ; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4622 MB             ; 00:00:00                           ;
-; Total                ; 00:00:13     ; --                      ; --                  ; 00:00:26                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4616 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4622 MB             ; 00:00:01                           ;
+; Total                ; 00:00:14     ; --                      ; --                  ; 00:00:28                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -102,6 +104,8 @@ https://fpgasoftware.intel.com/eula.
 ; Timing Analyzer      ; LAPTOP-POOKGRMJ  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; LAPTOP-POOKGRMJ  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; LAPTOP-POOKGRMJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-POOKGRMJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-POOKGRMJ  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -113,6 +117,8 @@ quartus_fit --read_settings_files=off --write_settings_files=off circuit_counter
 quartus_asm --read_settings_files=off --write_settings_files=off circuit_counter -c circuit_counter
 quartus_sta circuit_counter -c circuit_counter
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off circuit_counter -c circuit_counter --vector_source=D:/verilog/circuit_counter/Waveform1.vwf --testbench_file=D:/verilog/circuit_counter/simulation/qsim/Waveform1.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/verilog/circuit_counter/simulation/qsim/ circuit_counter -c circuit_counter
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off circuit_counter -c circuit_counter --vector_source=D:/verilog/circuit_counter/Waveform2.vwf --testbench_file=D:/verilog/circuit_counter/simulation/qsim/Waveform2.vwf.vt
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=D:/verilog/circuit_counter/simulation/qsim/ circuit_counter -c circuit_counter
 
 

@@ -1,6 +1,7 @@
 vendor_name = ModelSim
 source_file = 1, D:/verilog/circuit_counter/circuit_counter.v
 source_file = 1, D:/verilog/circuit_counter/Waveform.vwf
+source_file = 1, D:/verilog/circuit_counter/Waveform1.vwf
 source_file = 1, D:/verilog/circuit_counter/db/circuit_counter.cbx.xml
 design_name = circuit_counter
 instance = comp, \CP~I , CP, circuit_counter, 1

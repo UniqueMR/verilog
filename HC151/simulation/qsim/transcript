@@ -1,0 +1,32 @@
+# do HC151.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:41:55 on Dec 30,2020
+# vlog -work work HC151.vo 
+# -- Compiling module HC151
+# 
+# Top level modules:
+# 	HC151
+# End time: 22:41:55 on Dec 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:41:55 on Dec 30,2020
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module HC151_vlg_vec_tst
+# 
+# Top level modules:
+# 	HC151_vlg_vec_tst
+# End time: 22:41:55 on Dec 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L maxv_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.HC151_vlg_vec_tst 
+# Start time: 22:41:56 on Dec 30,2020
+# Loading work.HC151_vlg_vec_tst
+# Loading work.HC151
+# Loading maxv_ver.maxv_io
+# Loading maxv_ver.maxv_lcell
+# Loading maxv_ver.maxv_asynch_lcell
+# Loading maxv_ver.maxv_lcell_register
+# after#23
+# ** Note: $finish    : Waveform.vwf.vt(49)
+#    Time: 1 us  Iteration: 0  Instance: /HC151_vlg_vec_tst
+# End time: 22:41:56 on Dec 30,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
